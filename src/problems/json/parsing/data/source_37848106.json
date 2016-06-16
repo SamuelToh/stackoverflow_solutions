@@ -1,0 +1,30 @@
+{
+  "members":
+    [
+      {
+        "firstName": "Bruce",
+        "familyMembers": null
+      },
+      {
+        "firstName": "Gates Family",
+        "familyMembers": [
+          {
+            "firstName": "Bill",
+            "familyMembers": null
+          },
+          {
+            "firstName": "Steve",
+            "familyMembers": null
+          }
+        ]
+      },
+      {
+        "firstName": "Lee",
+        "familyMembers": null
+      },
+      {
+        "firstName": "Chan",
+        "familyMembers": null
+      }
+    ]
+}
