@@ -1,11 +1,9 @@
 /**
  * Created by tigerroarz on 16/06/16.
  */
-import com.google.common.base.Objects;
 import org.json.*;
 
 import java.io.File;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -37,7 +35,7 @@ public class solution {
     }
 
     public static void main(String[] args) {
-        Map<String, Integer> nameTracker = new HashMap<String, Integer>();
+        Map<String, Integer> nameTracker = new HashMap<>();
 
         try {
             String text = Files.toString(new File(JSON_DATA_FILE_PATH), Charsets.UTF_8);
