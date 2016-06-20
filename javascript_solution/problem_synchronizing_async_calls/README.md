@@ -14,6 +14,7 @@ Controlling asynchronize function calls in a sychronized manner.
 
 
 Caller's example code:
+```javascript
 waitForFreeAccnt.prototype.isMemberFree = function () {
     var self = this;
 
@@ -43,3 +44,4 @@ var test = function () {
         }
     }
 };
+```
