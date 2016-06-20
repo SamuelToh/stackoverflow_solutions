@@ -1,17 +1,18 @@
 Problem statement:
 
-Given an asynchronize function called isMemberFree() that returns either true/false
-  And a sychronize function called test() that calls isMemberFree()
- When I call test(), it should recursively call the async isMemberFree() fn until it returns TRUE or 10seconds has exceeded
- Then I can move on with the code.
+Given an asynchronize function called isMemberFree() that returns either true/false<br>
+And a sychronize function called test() that calls isMemberFree()<br>
+When I call test(), it should recursively call the async isMemberFree() fn until it returns TRUE or 10seconds has exceeded<br>
+Then I can move on with the code.<br>
   
-
-Problem URL: 
+<br>
+Problem URL:__ 
 http://stackoverflow.com/questions/37902092/how-to-do-a-for-loop-with-asynchronous-condition-in-javascript/37902417#37902417
-
-Comment:
+<br>
+Comment:__
 Controlling asynchronize function calls in a sychronized manner.
 
+<br>
 
 Caller's example code:
 ```javascript
